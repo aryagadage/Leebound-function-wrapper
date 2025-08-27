@@ -3,7 +3,7 @@ run_leebounds(df) defines a Python function that acts as a wrapper around Stataâ
 In an RCT with attrition (missing outcomes), treatment assignment is random, but who stays in the study (S=1) may depend on treatment. This creates selection bias, since treatment and control may have different follow-up rates 
 (if treated participants are more likely to drop out, the observed mean outcome among treated isnâ€™t representative of all treated.)
 
-Lee Bounds - 
+Lee Bounds(paper attached for reference) - 
 1. Compare attrition rates between treated vs control. (Suppose treated has higher attrition (more missing outcomes))
 
 2. Trim the upper tail of outcomes in the group with lower attrition, so that the two groups have the same effective sample size. - This balances out the selection effect.
